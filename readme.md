@@ -4,14 +4,13 @@ We have images of 'immuno-strained' neurons on a background of diamond nanopilla
 
 The following is a raw example of an image:
 
+<img src="https://github.com/pmRed/neuron-length-estimation/blob/master/sample/neuron-example.jpg?raw=true" width="200">
 
-![Immuno-stain image]('./sample/neuron-example.jpg')
+The green, red and blue channels approximately correspond to the neurons, glia and nuclei, respectively. We also know the orientation of the diamond pillar with respect to this image.
 
-The green, red and blue channels approximately correspond to the neurons, glia and nuclei, respectively. We also know the orientation of the diamond pillar with respect to this image. 
+<img src="https://github.com/pmRed/neuron-length-estimation/blob/master/sample/pillar-array.jpg?raw=true" width="200">
 
-![Immuno-stain image]('./sample/pillar-array.jpg')
-
-![Immuno-stain image]('./sample/overlay-example.jpg')
+<img src="https://github.com/pmRed/neuron-length-estimation/blob/master/sample/overlay-example.jpg?raw=true" width="200">
 
 Our aim is to trace out the neuron tendrils algorithmically and then measure how similar these traces align with the grid. For example, you can approximate this by looking at the integrated cosine similarity between the grid axes and neuron tendril paths.
 
