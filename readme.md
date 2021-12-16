@@ -12,7 +12,7 @@ The green, red and blue channels approximately correspond to the neurons, glia a
 
 <img src="https://github.com/pmRed/neuron-length-estimation/blob/master/sample/overlay-example.jpg?raw=true" width="200">
 
-Our aim is to trace out the neuron tendrils algorithmically and then measure how well these traces align with the grid. For example, you can approximate this by looking at the integrated cosine similarity between the grid axes and neuron tendril paths.
+Our aim is to trace out the neuron tendrils algorithmically and then measure how well these traces align with the grid. 
 
 Research Log:
 - Preprocessed the images, cleaning up noise where possible.
